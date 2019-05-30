@@ -1,0 +1,12 @@
+<templateSet group="ngxs">
+  <template name="ngxs" value="import { EmitterAction, Receiver } from '@ngxs-labs/emitter'&#10;import { State, StateContext } from '@ngxs/store'&#10;import { patch } from '@ngxs/store/operators'&#10;&#10;export class $ModelName$Model {&#10;  constructor($END$) {&#10;  }&#10;}&#10;&#10;@State&lt;$ModelName$Model&gt;({&#10;  name: '$name$',&#10;  defaults: new $ModelName$Model()&#10;})&#10;export class $Name$ {&#10;  @Receiver()&#10;  static template(ctx: StateContext&lt;$Name$Model&gt;, {payload}: EmitterAction&lt;$Name$Model&gt;) {&#10;    ctx.setState(patch&lt;$ModelName$Model&gt;({}))&#10;  }&#10;}&#10;" description="ngxs-temp" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
+    <variable name="ModelName" expression="" defaultValue="Name" alwaysStopAt="false" />
+    <variable name="name" expression="camelCase(Name)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="TS_CLASS" value="true" />
+      <option name="TS_EXPRESSION" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

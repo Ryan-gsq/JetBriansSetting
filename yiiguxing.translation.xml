@@ -1,0 +1,25 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="swan" />
+      <item value="ERROR WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema. - configuration has an unknown property 'productionSourceMap'. These properties are valid: object { amd?, bail?, cache?, context?, dependencies?, devServer?, devtool?, entry?, externals?, loader?, mode?, module?, name?, node?, optimization?, output?, parallelism?, performance?, plugins?, profile?, recordsInputPath?, recordsOutputPath?, recordsPath?, resolve?, resolveLoader?, serve?, stats?, target?, watch?, watchOptions? } For typos: please correct them. For loader options: webpack &gt;= v2.0.0 no longer allows custom properties in configuration. Loaders should be updated to allow passing options via loader options in module.rules. Until loaders are updated one can use the LoaderOptionsPlugin to pass these options to the loader: plugins: [ new webpack.LoaderOptionsPlugin({ // test: /\.xxx$/, // may apply this only for some modules options: { productionSourceMap: … } }) ]" />
+      <item value="asterisks in jsdoc must be aligned" />
+      <item value="Implicit" />
+      <item value="separator" />
+      <item value="operator" />
+      <item value="decl" />
+      <item value="branch" />
+      <item value="Enforces function overloads to be consecutive" />
+      <item value="ambient" />
+      <item value="Typography" />
+      <item value="behind" />
+      <item value="`timezone` to be used for formatting. It understands UTC/GMT and the continental US time zone" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="2" />
+        <entry key="ENGLISH" value="3" />
+      </map>
+    </option>
+  </component>
+</application>
